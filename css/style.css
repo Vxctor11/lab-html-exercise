@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+ .search{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+  .npmLogo{
+    width: 75px;
+    height: 25px;
+  }
+  .magnifyingGlass{
+    width: 20px;
+    height: 20px;
+  }
+ 
+.search-bar{
+    width: 90em;
+}
+  form label{
+    color: rgba(0,0,0,.05);
+  }
+ 
+ .btnSearch{
+    background-color: #fb3e44;
+    box-shadow:8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+   
+  }
+  .btnLogIn{
+    border: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-1 h1{
+    font-size: 3em;
+  }
+  .artic{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  }
+  
+  .seePlans{
+    background-color:#FB3B49;
+    box-shadow:8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+  }
+  .joinFree{
+    background-color: #efe7e7;
+    border: none;
+    color: #000000;
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .section-1{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 600px;
+    background-color: rgba(232,217,217,.3) ;
+  }
+  .section-2{
+    background-color:rgba(232,217,217,.3) ;
+  }
+  .triangle-hexagon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30em;
+    width: 30em;
+  }
+  .section-2 h1{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color:rgba(255,204,53,.4);
+    transform:skew(9deg,0deg);
+    font-style: italic;
+    margin: 0;
+  }
+
+  
+  .section-3 h1{
+    color:#ED1C24 ;
+  }
+
+  .zero-configuration{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    width: 2em;
+    height: 2em;
+  }
+  .team-management{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    width: 2em;
+    height: 2em;
+  }
+  .npm-audit{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    width: 2em;
+    height: 2em;
+  }
+  .familiar-features{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    width: 2em;
+    height: 2em;
+  }
+  .section-3{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    box-shadow:8px 8px 0 rgba(128,83,35,.2) ;
+  }
+  .btn-org{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    box-shadow:8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+  }
+
